@@ -74,7 +74,7 @@ class TaskManager {
                 <b>Date: </b>${dueDateFormatted}<br>
                 <b>Status: </b>${item.status }
                 </p> 
-                <button type="button" class="btn btn-primary" onclick = "homeworkTask.editTodo(${index})" data-toggle="modal" data-target="#EditTask">Edit</button>
+                <button type="button" class="btn btn-secondary" onclick = "homeworkTask.editTodo(${index})" data-toggle="modal" data-target="#EditTask">Edit</button>
                 <a href = "#" class="btn btn-success ${item.status}hide " onclick = "homeworkTask.DoneToDo (${index})">Done</a> 
                 <a hreaf ="#" class ="btn btn-danger" onclick = "homeworkTask.deleteToDo(${index}); return false" > Delete </a>
             </div>`;

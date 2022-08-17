@@ -10,24 +10,26 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
-<body>
-    <header class="myheader">
-        <h1 class="h1 display-1 text-center text-white py-3"><b>To-Do List</b></h1>
-        <div class=" text-center text-white py-3">
+<body onload="promt()">
+    <header class="myheader bg-secondary" >
+        <h1 class="h1 display-2 text-center text-black py-3"><b>TASK PLANNER</b></h1>
+        <div class=" text-center text-white bg-warning py-3">
             <b>Current Date: </b><span id='current_date'></span>
         </div>
     </header>
     <div class="main-container">
-        
+        <div class="welcome" id="header">
+            
+        </div>
         <div class="row">
             <div id="create-a-task" class="col-sm-12 col-md-3 text-center py-3"> 
                 
-                <object type="image/svg+xml" data="assets/images/add.svg" style="width:50%">
+                <!-- <object type="image/svg+xml" data="assets/images/add.svg" style="width:50%"> -->
                     <!-- Your fall back here -->
-                    <img src="assets/images/add.svg" />
-                </object>
+                    <img src="assets/images/addimage.png" style="width: 50%; margin-bottom:2em; margin-top: 2em;"/>
+                <!-- </object> -->
                 <br>
-                <button type="button" class="btn btn-primary" onclick="homeworkTask.addTodo();">
+                <button type="button" class="btn btn-secondary" onclick="homeworkTask.addTodo();">
                     Create a Task
                 </button>
                 

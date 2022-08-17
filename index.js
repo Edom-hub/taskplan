@@ -67,3 +67,12 @@ saveBtn.addEventListener('click', (event) => {
 
 }, false)
 
+function promt(){
+    let person = prompt("Greetings, Please enter your name", " ");
+    let random = Math.floor(Math.random()*10);
+    if (person != null) {
+
+            alert("Hello " + person + "! You have " + random + " tasks in progress?");
+        
+        }
+}

@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .main-container{
-    background-color: #dccef0;
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,8 +29,14 @@
 }
 
 .myheader{
-    background-color: #0d6efd;
-    background-image: url(../assets/images/bgm.jpg);
+   
+    background-color: #8faedc;
+    height: 350px;
+    background-image: url(../assets/images/estee-janssens-aQfhbxailCs-unsplash.jpg);
+    background-size:auto;
+    background-position: center;
+    width: 100%;
+    margin: auto;
 }
 
 #validateName, #validateDescription, #validateAssigned, #validateDate, #validateStatus {
@@ -35,21 +46,21 @@
 /* HTML style */
 #create-a-task {
     margin: 0 auto;
-    color: #5972b5;
+    color: #8c8c8c;
 }
 
 /* STYLE BUTTONS */
 #saveBtn {
     float: right;
-    padding: 0.75em 2em;
+    padding: 0.65em 2em;
     font-size: 1.1rem;
-    background-color: #5972b5;
-    border: #5972b5;
+    background-color: #202020;
+    border: #212121;
 }
 
 /* MODAL DESIGN */
 .modal-header {
-    background-color: #5972b5;
+    background-color: #454545;
     color: white;
 }
 
@@ -62,7 +73,7 @@
 }
 
 body {
-    background: #dccef0;
+    background: #b9b9b9;
 }
 
 /*button edit */
